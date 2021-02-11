@@ -2,7 +2,7 @@
     <div>
         <section id="home-section" class="hero">
             <div class="home-slider owl-carousel">
-                <div class="slider-item">
+                <div class="slider-item" :style="{'background-image': 'url(assets/images/bg_1.jpg)'}">
                     <div class="overlay"></div>
                     <div class="container">
                         <div
@@ -20,7 +20,7 @@
                     </div>
                 </div>
 
-                <div class="slider-item">
+                <div class="slider-item" :style="{'background-image': 'url(assets/images/bg_2.jpg)'}">
                     <div class="overlay"></div>
                     <div class="container">
                         <div
@@ -50,7 +50,5 @@ export default {
 </script>
 
 <style scoped>
-    .slider-item{
-        background-image: url("~@/assets/images/bg_1.jpg");
-    }
+
 </style>
