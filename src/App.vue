@@ -16,3 +16,7 @@ export default {
     components: {TopMenu, Nav}
 }
 </script>
+
+<style scoped>
+
+</style>
