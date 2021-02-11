@@ -38,13 +38,13 @@ export default {
             sliders:[
                 {
                     image:'assets/images/bg_1.jpg',
-                    title:'We serve Fresh Vegestables &amp; Fruits',
-                    subtitle:'We deliver organic vegetables &amp; fruits'
+                    title:'We serve Fresh Vegestables & Fruits',
+                    subtitle:'We deliver organic vegetables & fruits'
                 },
                 {
                     image:'assets/images/bg_2.jpg',
-                    title:'100% Fresh &amp; Organic Foods',
-                    subtitle:'We deliver organic vegetables &amp; fruits'
+                    title:'100% Fresh & Organic Foods',
+                    subtitle:'We deliver organic vegetables & fruits'
                 },
 
             ]
