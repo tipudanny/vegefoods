@@ -3,6 +3,7 @@
         <TopMenu />
         <Nav />
         <router-view/>
+        <Footer/>
         <!-- loader -->
         <div id="ftco-loader" class="show fullscreen">
             <svg class="circular" width="48px" height="48px">
@@ -36,8 +37,9 @@
 <script>
 import Nav from "./components/layout/Nav";
 import TopMenu from "@/components/layout/TopMenu";
+import Footer from "@/components/layout/Footer";
 export default {
-    components: {TopMenu, Nav}
+    components: {Footer, TopMenu, Nav}
 }
 </script>
 
